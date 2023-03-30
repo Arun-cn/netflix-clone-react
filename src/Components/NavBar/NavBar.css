@@ -7,4 +7,17 @@
 }
 .navbar-color{
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+    width: 100px;
+}
+.avatar{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
 }
