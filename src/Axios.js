@@ -3,7 +3,7 @@ import { baseUrl } from "./Constants/Constans";
 
 
 const instance = axios.create({
-    baseURL:baseUrl 
+    baseURL:baseUrl,
    
   });
 export default instance;
