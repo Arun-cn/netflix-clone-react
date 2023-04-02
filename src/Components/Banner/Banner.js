@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import '../Banner/Banner.css';
 import { API_KEY , Image_url} from '../../Constants/Constans';
-import { useEffect } from 'react';
+
 import axios from '../../Axios';
 
 export default function Banner() {
